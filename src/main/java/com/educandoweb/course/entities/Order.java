@@ -25,6 +25,7 @@ public class Order implements Serializable {
     @JoinColumn(name = "clientId")
     private User client;
 
+
     public Order() {
     }
 

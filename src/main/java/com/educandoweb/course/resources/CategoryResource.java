@@ -19,6 +19,7 @@ public class CategoryResource {
 
     private final CategoryService categoryService;
 
+    @Autowired
     public CategoryResource(CategoryService categoryService) {
         this.categoryService = categoryService;
     }
